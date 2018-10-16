@@ -1,17 +1,16 @@
 import React from 'react';
-import BottomNavigation from '@material-ui/core/BottomNavigation';
+import Typography from "@material-ui/core/Typography"
 import Button from '@material-ui/core/Button';
 
 function TopBar() {
   return (
-    <BottomNavigation style={{backgroundColor: "#242628"} } className="footer">
-      <div className="footer-social">
+    <footer className="footer" style={{backgroundColor: "#242628", position: "fixed",
+    bottom: "0", width: "100%"}}>
+      <Typography variant="h6" align="center" gutterBottom>
         Instagram
-      </div>
-      <div className="footer-top-button">
-        <Button variant="outlined">To Top</Button>
-      </div>
-    </BottomNavigation>
+      </Typography>
+      <Button variant="outlined">To Top</Button>
+    </footer>
   );
 }
 
