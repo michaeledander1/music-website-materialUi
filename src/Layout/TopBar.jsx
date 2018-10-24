@@ -1,5 +1,6 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
+import Link from 'react-router-dom'
 
 function TopBar() {
   return (
@@ -9,11 +10,11 @@ function TopBar() {
       </div>
       <div className="header-navigation">
         <div className="header-navigation-links">
-          About
-          Music
-          Transcriptions
-          Gigs
-          Contact
+          <Link to='/biography'>About</Link>
+          <Link to='/music'>Music</Link>
+          <Link to='/transcriptions'>Transcriptions</Link>
+          <Link to='/gigs'>Gigs</Link>
+          <Link to='/contact'>Contact</Link>
         </div>
       </div>
     </AppBar>
