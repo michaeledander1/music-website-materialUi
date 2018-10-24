@@ -1,3 +1,23 @@
+.footer-grid {
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-grid-left, .footer-grid-right {
+    width: 50%;
+    text-align: center;
+}
+
+.footer-grid-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-grid-icons-itmes {
+    flex-grow: 1;
+}
+
 .footer img{
-    width: 25px;
+    width: 50px;
 }

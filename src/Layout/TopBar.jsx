@@ -1,20 +1,21 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import { Link } from 'react-router-dom'
+import '../styles/header.css'
 
 function TopBar() {
   return (
-    <AppBar position="fixed" style={{backgroundColor: "#242628"}}>
-      <div className="header-name">
-        Michael Anderson
-      </div>
-      <div className="header-navigation">
-        <div className="header-navigation-links">
-          <Link to='/biography'>About</Link>
-          <Link to='/music'>Music</Link>
-          <Link to='/transcriptions'>Transcriptions</Link>
-          <Link to='/gigs'>Gigs</Link>
-          <Link to='/contact'>Contact</Link>
+    <AppBar position="static" style={{backgroundColor: "#242628"}}>
+      <div className="header">
+        <div className="header-name">
+          <h1>Michael Anderson</h1>
+        </div>
+        <div className="header-navigation">
+          <Link to='/biography'><p>About</p></Link>
+          <Link to='/music'><p>Music</p></Link>
+          <Link to='/transcriptions'><p>Transcriptions</p></Link>
+          <Link to='/gigs'><p>Gigs</p></Link>
+          <Link to='/contact'><p>Contact</p></Link>
         </div>
       </div>
     </AppBar>

@@ -1,0 +1,13 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.header-name {
+    margin-left: 5%;
+}
+
+.header-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
