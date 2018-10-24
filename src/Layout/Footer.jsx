@@ -10,9 +10,15 @@ function TopBar() {
   return (
     <footer className="footer" style={{backgroundColor: "#242628", position: "fixed",
     bottom: "0", width: "100%"}}>
-      <a href="https://www.instagram.com/michaeljazz2/?hl=en"><img src={instagram} alt="instagram"/></a>
-      <a href="https://soundcloud.com/"><img src={soundcloud} alt="soundcloud"/></a>
-      <a href="https://www.linkedin.com/in/michael-anderson-60847b165/"><img src={linkedin} alt="linkedin"/></a>
+      <a href="https://www.instagram.com/michaeljazz2/?hl=en" target="_blank" rel="nonoreferrer noopener">
+        <img src={instagram} alt="instagram"/>
+      </a>
+      <a href="https://soundcloud.com/" target="_blank" rel="nonoreferrer noopener">
+        <img src={soundcloud} alt="soundcloud"/>
+      </a>
+      <a href="https://www.linkedin.com/in/michael-anderson-60847b165/" target="_blank" rel="nonoreferrer noopener">
+        <img src={linkedin} alt="linkedin"/>
+      </a>
       <Button variant="outlined">To Top</Button>
       <div className="footer-credits">
         <p>Icons courtesy of <a href="https://www.iconfinder.com/laurareen">Laura Reen</a></p>

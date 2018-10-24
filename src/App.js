@@ -7,6 +7,7 @@ import Main from './Components/Main'
 import Transcriptions from './Components/Transcriptions';
 import Music from './Components/Music'
 import Biography from './Components/Biography'
+import Contact from './Components/Contact'
 
 class App extends Component {
   render() {
@@ -14,10 +15,13 @@ class App extends Component {
       <BrowserRouter>
       <div className="App">
         <TopBar />
-        <Route exact path="/" component={Main}/>
-        <Route path="/transcriptions" component={Transcriptions}/>
-        <Route path="/music" component={Music}/>
-        <Route path="/biography" component={Biography}/>
+        <body>
+          <Route exact path="/" component={Main}/>
+          <Route path="/transcriptions" component={Transcriptions}/>
+          <Route path="/music" component={Music}/>
+          <Route path="/biography" component={Biography}/>
+          <Route path="/contact" component={Contact}/>
+        </body>
         <Footer />
       </div>
       </BrowserRouter>

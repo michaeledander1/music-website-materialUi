@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function TopBar() {
   return (
-    <AppBar style={{backgroundColor: "#242628"}}>
+    <AppBar position="fixed" style={{backgroundColor: "#242628"}}>
       <div className="header-name">
         Michael Anderson
       </div>
