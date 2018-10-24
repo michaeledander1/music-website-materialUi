@@ -11,10 +11,16 @@ function Music() {
         </Typography>
         <Grid container direction="row">
           <Grid item className="music-page-video-item">
-            Video of me
+            <iframe width="425" height="240" src="https://www.youtube.com/embed/drkSfniKT_E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <Typography>
+              <p>Performing with the New Arrangments Nonet in Amsterdam</p>
+            </Typography>
           </Grid>
           <Grid item className="music-page-video-item">
-            Another video of me
+            <iframe width="425" height="240" src="https://www.youtube.com/embed/XzGPLYxYNvs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <Typography>
+              <p>Performing with the New Arrangments Nonet at the Bimhuis in Amsterdam</p>
+            </Typography>
           </Grid>
         </Grid>
         <Grid container direction="row">

@@ -1,6 +1,6 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
-import Link from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function TopBar() {
   return (
