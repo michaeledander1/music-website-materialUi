@@ -7,9 +7,9 @@ function Main() {
   return (
     <div className="main-page">
       <div className="main-page-title">
-        <Typography>
+        <div className="main-page-title-text">
           <h1>Jazz Saxophonist/Teacher/Composer</h1>
-        </Typography>
+        </div>
         <Grid container direction="row">
           <Grid item className="main-page-transcription">
             <div className="main-page-transcription-preview">
@@ -22,7 +22,7 @@ function Main() {
           </Grid>
           <Grid item className="main-page-music">
             <div className="main-page-music-preview">
-              Youtube video here
+              <iframe width="425" height="240" src="https://www.youtube.com/embed/XzGPLYxYNvs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div className="main-page-music-description">
               <Link to='/music'>Performance videos and clips</Link>
