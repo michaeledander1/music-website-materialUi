@@ -9,19 +9,21 @@ import '../styles/contact.css'
 function Contact() {
   return (
     <div className="contact-page">
-      <Grid container direction="row" className="contact-page-layout" style={{alignItems: "center"}}>
+      <Grid container direction="row" className="contact-page-layout" style={{alignItems: "center", justifyContent: "center"}}>
         <Grid item className="contact-page-details">
-          <Typography>
-            <h2>Contact</h2>
+          <Typography style={{textAlign: "center"}}>
+            <div className="contact-page-details-title">
+              <h2>Contact</h2>
+            </div>
             <h3>Email</h3>
             <p>michaeledander1@gmail.com</p>
           </Typography>
         </Grid>
           <Grid item className="contact-page-social">
-            <Typography>
+            <Typography style={{textAlign: "center", marginBottom: "5%"}}>
               <h2>Social Media</h2>
             </Typography>
-            <Grid container direction="row">
+            <Grid container direction="row" style={{justifyContent: "space-around"}}>
               <Grid item className="contact-page-social-item">
                 <a href="https://www.instagram.com/michaeljazz2/?hl=en" target="_blank" rel="nonoreferrer noopener">
                   <img src={instagram} alt="instagram"/>
@@ -40,6 +42,9 @@ function Contact() {
             </Grid>
           </Grid>
       </Grid>
+      <div className="vertical-line">
+        &nbsp;
+      </div>
     </div>
   );
 }
