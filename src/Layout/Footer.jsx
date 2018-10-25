@@ -15,17 +15,17 @@ function TopBar() {
       <Grid container className="footer-grid" direction="row">
         <Grid item className="footer-grid-left">
           <Grid container className="footer-grid-icons">
-            <Grid item className="footer-grid-icons-items">
+            <Grid item style={{margin: "4%"}}>
               <a href="https://www.instagram.com/michaeljazz2/?hl=en" target="_blank" rel="nonoreferrer noopener">
                 <img src={instagram} alt="instagram"/>
               </a>
             </Grid>
-            <Grid item className="footer-grid-icons-items">
+            <Grid item style={{margin: "4%"}}>
               <a href="https://soundcloud.com/" target="_blank" rel="nonoreferrer noopener">
                 <img src={soundcloud} alt="soundcloud"/>
               </a>
             </Grid>
-            <Grid item className="footer-grid-icons-items">
+            <Grid item style={{margin: "4%"}}>
               <a href="https://www.linkedin.com/in/michael-anderson-60847b165/" target="_blank" rel="nonoreferrer noopener">
                 <img src={linkedin} alt="linkedin"/>
               </a>

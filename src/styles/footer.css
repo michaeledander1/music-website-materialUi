@@ -14,10 +14,6 @@
     justify-content: center;
 }
 
-.footer-grid-icons-itmes {
-    flex-grow: 1;
-}
-
 .footer img{
     width: 50px;
 }
