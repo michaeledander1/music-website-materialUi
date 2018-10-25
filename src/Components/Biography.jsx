@@ -1,12 +1,13 @@
 import React from 'react';
 import Typography from "@material-ui/core/Typography"
 import Grid from "@material-ui/core/Grid"
+import '../styles/biography.css'
 
 function Biography() {
   return (
     <div className="bio-page">
       <div className="bio-page-title">
-        <Typography>
+        <Typography style={{textAlign: "center"}}>
           <h1>Michael Anderson</h1>
         </Typography>
         <Grid container direction="row">

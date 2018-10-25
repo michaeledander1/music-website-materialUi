@@ -6,10 +6,10 @@ function Music() {
   return (
     <div className="music-page">
       <div className="music-page-title">
-        <Typography>
+        <Typography style={{textAlign: "center"}}>
           <h1>Music</h1>
         </Typography>
-        <Grid container direction="row">
+        <Grid container direction="row" style={{textAlign: "center", justifyContent: "center"}}>
           <Grid item className="music-page-video-item">
             <iframe width="425" height="240" src="https://www.youtube.com/embed/drkSfniKT_E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <Typography>
@@ -23,7 +23,7 @@ function Music() {
             </Typography>
           </Grid>
         </Grid>
-        <Grid container direction="row">
+        <Grid container direction="row" style={{justifyContent: "center"}}>
           <Grid item className="music-page-music-item">
             Music example
           </Grid>

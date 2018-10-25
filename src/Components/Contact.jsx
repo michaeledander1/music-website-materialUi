@@ -9,7 +9,7 @@ import '../styles/contact.css'
 function Contact() {
   return (
     <div className="contact-page">
-      <Grid container direction="row" className="contact-page-layout">
+      <Grid container direction="row" className="contact-page-layout" style={{alignItems: "center"}}>
         <Grid item className="contact-page-details">
           <Typography>
             <h2>Contact</h2>
