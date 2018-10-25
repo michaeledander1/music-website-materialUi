@@ -2,6 +2,8 @@ import React from 'react';
 import Typography from "@material-ui/core/Typography"
 import Grid from "@material-ui/core/Grid"
 import { Link } from 'react-router-dom'
+import squarePic from '../assets/square-pic.jpg'
+import '../styles/main.css'
 
 function Main() {
   return (
@@ -10,7 +12,7 @@ function Main() {
         <div className="main-page-title-text">
           <h1>Jazz Saxophonist/Teacher/Composer</h1>
         </div>
-        <Grid container direction="row">
+        <Grid container direction="row" stlye={{justifyContent: "space-evenly"}}>
           <Grid item className="main-page-transcription">
             <div className="main-page-transcription-preview">
               Image here
@@ -22,7 +24,7 @@ function Main() {
           </Grid>
           <Grid item className="main-page-music">
             <div className="main-page-music-preview">
-              <iframe width="425" height="240" src="https://www.youtube.com/embed/XzGPLYxYNvs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe width="450" height="260" src="https://www.youtube.com/embed/XzGPLYxYNvs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div className="main-page-music-description">
               <Link to='/music'>Performance videos and clips</Link>
@@ -30,7 +32,7 @@ function Main() {
           </Grid>
           <Grid item className="main-page-bio">
             <div className="main-page-bio-pic">
-              Picture here!
+              <img src={squarePic} alt="Michael Anderson"/>
             </div>
             <div className="main-page-bio-text">
               <Link to='/biography'>Learn more about Michael</Link>
