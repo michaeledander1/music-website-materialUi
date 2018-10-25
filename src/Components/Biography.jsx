@@ -2,17 +2,18 @@ import React from 'react';
 import Typography from "@material-ui/core/Typography"
 import Grid from "@material-ui/core/Grid"
 import '../styles/biography.css'
+import standingPic from '../assets/standing-pic.jpg'
 
 function Biography() {
   return (
     <div className="bio-page">
       <div className="bio-page-title">
-        <Typography style={{textAlign: "center"}}>
+        <Typography style={{textAlign: "center", marginBottom: "5%", fontSize: "1.5em"}}>
           <h1>Michael Anderson</h1>
         </Typography>
         <Grid container direction="row">
           <Grid item className="bio-page-image">
-            Picture of me
+            <img src={standingPic} alt="Michael Anderson"/>
           </Grid>
           <Grid item className="bio-page-text">
             <Typography>

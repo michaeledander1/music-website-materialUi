@@ -10,7 +10,7 @@ import '../styles/footer.css'
 
 function TopBar() {
   return (
-    <footer className="footer" style={{backgroundColor: "#242628", position: "fixed",
+    <footer className="footer" style={{backgroundColor: "#242628", position: "static",
     bottom: "0", width: "100%"}}>
       <Grid container className="footer-grid" direction="row">
         <Grid item className="footer-grid-left">

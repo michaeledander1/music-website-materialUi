@@ -1,5 +1,14 @@
+.bio-page {
+    margin: 5%;
+}
+
 .bio-page-image {
     width: 50%;
+    text-align: center;
+}
+
+.bio-page-image img {
+    height: 75vh;
 }
 
 .bio-page-text {
