@@ -1,5 +1,4 @@
 import React from 'react';
-import Typography from "@material-ui/core/Typography"
 import Grid from "@material-ui/core/Grid"
 import { Link } from 'react-router-dom'
 import squarePic from '../assets/square-pic.jpg'

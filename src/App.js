@@ -8,6 +8,7 @@ import Transcriptions from './Components/Transcriptions';
 import Music from './Components/Music'
 import Biography from './Components/Biography'
 import Contact from './Components/Contact'
+import Gigs from './Components/Gigs'
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path="/music" component={Music}/>
           <Route path="/biography" component={Biography}/>
           <Route path="/contact" component={Contact}/>
+          <Route path="/gigs" component={Gigs}/>
         </body>
         <Footer />
       </div>
