@@ -37,7 +37,7 @@
     display: block;
     margin: 0 auto;
     margin-top: 5em;
-    max-width: 55em;
+    max-width: 60em;
 }
 
 header {
@@ -209,6 +209,6 @@ header #logo .icon {
   
   .calendar .body .col {
     flex-grow: 0;
-    flex-basis: calc(100%/7);
+    flex-basis: calc(98%/7);
     width: calc(100%/7);
   }
