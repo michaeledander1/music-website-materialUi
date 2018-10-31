@@ -1,13 +1,13 @@
 .contact-page {
-    margin-bottom: 15%;
-    margin-top: 10%;
+    height: 80vh;
 }
 .contact-page-layout {
-    margin-top: 10%;
+    height: 100%;
 }
 
 .contact-page-details {
     width: 50%;
+    border-right: 4px solid black;
 }
 
 .contact-page-details-title h2{
@@ -20,14 +20,4 @@
 
 .contact-page-social-item img{
     height: 100px;
-}
-
-.vertical-line {
-    width: 3px;
-    background-color:#000;
-    position:absolute;
-    top: 175px;
-    bottom: 175px;
-    left:50%;
-    right:50%;
 }
